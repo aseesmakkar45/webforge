@@ -1,21 +1,16 @@
-# Product Requirements Document (PRD)
+# Product Requirement Document (PRD)
 
-## 1. Project Overview
-**Name:** Template 1 - [Your Project Name]
-**Description:** An AI-powered 3D web application built for the Web Forge Hackathon.
+## 1. Goal
+Build a production-quality, highly reusable SaaS template that can be quickly rebranded and customized for any future hackathon problem statement (e.g., AI Tutor, Study Planner, Healthcare Assistant, Mental Health Platform, Resume Analyzer, Interview Coach, Productivity Tool, Sustainability Tracker, AI Business Dashboard).
 
-## 2. Target Audience
-- [Define your target users here, e.g., Students, Creative Professionals, General Public]
+## 2. The Architecture Focus
+- **Reusability:** Abstracted AI layers and generic dashboards.
+- **Scalability:** Horizontal scaling, caching, robust DB.
+- **Rapid Iteration:** Pre-built, customizable UI components.
+- **Clean Code & Professional Presentation:** Judge-friendly, premium startup-grade aesthetics.
 
-## 3. Problem Statement
-- [What problem does this template solve?]
-
-## 4. Key Features (MVP)
-1. **Interactive 3D Environment:** Users can interact with a 3D scene (powered by Three.js/R3F).
-2. **AI Integration:** Users can converse with or generate content using the Gemini API.
-3. **User Authentication:** Secure login and registration using JWT.
-4. **Data Persistence:** User preferences and generated content saved to MongoDB.
-
-## 5. Out of Scope for MVP
-- Complex social features (friends lists, messaging).
-- Payment gateways.
+## 3. Deliverables Scope
+- Landing Page (Hero, Features, How It Works, Pricing, Testimonials, FAQ)
+- Authentication (Login, Signup, Forgot/Reset Password)
+- Application Core (Dashboard, Profile, Settings, Notifications, Analytics, History, Admin Panel)
+- AI Workspace (Chat Interface, Prompt Input, Conversation History, File Upload, AI Output Viewer)
